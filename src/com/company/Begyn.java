@@ -44,7 +44,7 @@ public class Begyn extends Thread {
                     System.out.println("Передача эстафеты");
                 }
             }
-            sleep( (long) (Math.random() * 300) );
+            sleep( (long) (Math.random() * 250) );
 
         } catch (Exception e) {
             System.out.println(e);
